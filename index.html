@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Site</title>
+    <link rel="stylesheet" href="./travelwork.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans:ital,wght@0,300;1,300&family=Playfair+Display:ital,wght@1,600&family=Raleway:ital@1&family=Roboto+Condensed:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83cc56892c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav style="margin-top: 40px; background-color: white; height: 70px;" class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid ">
+            <a style="font-size: 30px; font-family:satisfy;margin-left: 30px;" class="navbar-brand"
+                href="#carouselExampleCaptions1">TRAVERSAL</a>
+            <button style="background-color: #ff1654;" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span style=" color: white;" class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul style="font-size: 15px;" class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" aria-current="page" href="#carouselExampleCaptions1">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;" class="nav-link" href="#home-btn">SERVICES</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color:black;" class="nav-link dropdown-toggle" href="#destinations" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            DESTINATIONS
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li><a style="color: black;" class="dropdown-item" href="#budget">Venice</a></li>
+                            <li><a style="color: black;" class="dropdown-item" href="#cuba-btn">Cuba</a></li>
+                            <li><a style="color: black;" class="dropdown-item" href="#mongolia-btn">Mongolia</a></li>
+                            <li><a style="color: black;" class="dropdown-item" href="#mongolia-btn">Denmark</a></li>
+                            <li><a style="color: black;" class="dropdown-item" href="#mongolia-btn">Kenya</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:black;"class="nav-link" href="#budget">BUDGET</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;" class="nav-link" href="#traveller-review">REVIEW</a>
+                    </li>
+                </ul>
+                <a href="#contact"><button class="btn1">GET IN TOUCH</button></a>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousal about -->
+
+    <div id="carouselExampleCaptions1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button style="border-radius: 100%; width: 10px; height: 10px; background-color: #ff1654;" type="button"
+                data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" id="home-btn"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button style="border-radius: 100%; width: 10px; height: 10px;background-color: #ff1654; margin-left: 10px;"
+                type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button style="border-radius: 100%; width: 10px; height: 10px;background-color: #ff1654; margin-left: 10px;"
+                type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button style="border-radius: 100%; width: 10px; height: 10px;background-color: #ff1654;margin-left: 10px;"
+                type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img height="700px"
+                    src="https://p.w3layouts.com/demos_new/template_demo/27-05-2019/lets_go-demo_Free/390378485/web/images/3.jpg "
+                    class="d-block w-100" alt="...">
+                <div style="text-align: justify; margin-bottom: 170px;" class="carousel-caption d-none  d-md-block">
+                    <h1 id="home" class="banner-h1">You don't need to go far to</h1>
+                    <h1 class="banner-h2">find what matters.</h1>
+                    <h5 class="banner-h3">Discover your next adventure</h5>
+                    <br>
+                    <form>
+                        <select style="border-radius: 6px; padding: 15px;width: 185px; background-color: white; "
+                            name="" id="">
+                            <option value="" selected hidden disabled>Destination</option>
+                            <option value="">Cuba</option>
+                            <option value="">Bali</option>
+                            <option value="">Japan</option>
+                            <option value="">Canada</option>
+                            <option value="">Load more</option>
+                        </select>
+                        <input class="date-btn" type="date" class="date">
+                        <button class="search-btn" type="submit">Book</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img height="700px"
+                    src="https://p.w3layouts.com/demos_new/template_demo/27-05-2019/lets_go-demo_Free/390378485/web/images/1.jpg"
+                    class="d-block w-100" alt="...">
+                <div style="text-align: justify; margin-bottom: 170px;" class="carousel-caption d-none  d-md-block">
+                    <h1 class="banner-h1">You don't need to go far to</h1>
+                    <h1 class="banner-h2">find what matters.</h1>
+                    <h5 class="banner-h3">Discover your next adventure</h5>
+                    <br>
+                    <form>
+                        <select style="border-radius: 6px; padding: 15px;width: 185px; background-color: white; "
+                            name="" id="">
+                            <option value="" selected hidden disabled>Destination</option>
+                            <option value="">Cuba</option>
+                            <option value="">Bali</option>
+                            <option value="">Canada</option>
+                            <option value="">Japan</option>
+                            <option value="#">Load more</option>
+                        </select>
+
+                        <input class="date-btn" type="date" class="date">
+                        <button class="search-btn" type="submit">Book</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img height="700px"
+                    src=" https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_1254/MTkwNTgxNDY5NjY0NTIwMDYw/full-view-of-palau-malakal-island-and-koror.webp "
+                    class="d-block w-100" alt="...">
+                <div style="text-align: justify; margin-bottom: 170px;" class="carousel-caption d-none  d-md-block">
+                    <h1 class="banner-h1">You don't need to go far to</h1>
+                    <h1 class="banner-h2">find what matters.</h1>
+                    <h5 class="banner-h3">Discover your next adventure</h5>
+                    <br>
+                    <form>
+                        <select style="border-radius: 6px; padding: 15px;width: 185px; background-color: white; "
+                            name="" id="">
+                            <option value="" selected hidden disabled>Destination</option>
+                            <option value="">Cuba</option>
+                            <option value="">Bali</option>
+                            <option value="">Canada</option>
+                            <option value="">Japan</option>
+                            <option value="">Load more</option>
+                        </select>
+
+                        <input class="date-btn" type="date" class="date">
+                        <button class="search-btn" type="submit">Book</button>
+
+                    </form>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img height="700px"
+                    src="https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_1254/MTkwNTgxNDY5NjY4Mzg2Njg0/photographer-in-torres-del-paine-at-lago-pehoe.webp"
+                    class="d-block w-100" alt="...">
+                <div style="text-align: justify; margin-bottom: 170px;" class="carousel-caption d-none  d-md-block">
+                    <h1 class="banner-h1">You don't need to go far to</h1>
+                    <h1 class="banner-h2">find what matters.</h1>
+                    <h5 class="banner-h3">Discover your next adventure</h5>
+                    <br>
+                    <form>
+                        <select style="border-radius: 6px; padding: 15px;width: 185px; background-color: white; "
+                            name="" id="">
+                            <option value="" selected hidden disabled>Destination</option>
+                            <option value="">Canada</option>
+                            <option value="">Canada</option>
+                            <option value="">Canada</option>
+                            <option value="">Canada</option>
+                        </select>
+
+                        <input class="date-btn" type="date" class="date">
+                        <button class="search-btn" type="submit">Book</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> -->
+    </div>
+
+    <!-- services -->
+
+    <div class="services" id="services">
+        <p class="text1">OUR SERVICES</p>
+        <p class="text2" style="letter-spacing: 3px;">3 STEPS TO THE PERFECT TRIP</p>
+    </div>
+
+
+    <!-- 3 services -->
+    <div class="container-fluid">
+        <div style="display: flex; justify-content: space-evenly;" class="mainbox1">
+            <div style="width: 380px;  margin-top: -115px;" class="box1">
+
+                <img style="width: 160px;
+                            height: 160px; margin-top: 27px;" class="image1"
+                    src="./logo_service_1-removebg-preview.png" alt="">
+
+                <P class="icon-text1">TELL US WHAT YOU WANT TO DO</P>
+                <P class="icon-text2">Fill out a 2-minute questionnaire<br></P>
+                <p class="icon-text3"> how you like to travel.</P>
+
+            </div>
+
+
+            <div style="width: 380px;  margin-top: -115px;" class="box2">
+                <img style="width: 80px;
+                     height: 70px; margin-top: 60px;" class="image1"
+                    src="https://i.pinimg.com/originals/7c/5e/50/7c5e50121f316d20643916b6e365f7a0.jpg" alt="">
+                <P style="padding-top: 57px;" class="icon-text1">SHARE YOUR TRAVEL PRFERENCES</P>
+                <P class="icon-text2">It all happens online, share<br></P>
+                <p class="icon-text3">everything to your vision</P>
+
+            </div>
+
+            <div style="width: 380px;  margin-top: -115px;" class="box3">
+                <img style="width: 87px;
+                   height: 87px; margin-top: 59px;" class="image1" src="./logo_service_2-removebg-preview.png" alt="">
+                <P style="padding-top: 40px;" class="icon-text1">TELL US WHAT YOU WANT TO DO</P>
+                <P class="icon-text2">Fill out a 2-minute questionnaire<br></P>
+                <p class="icon-text3"> how you like to travel.</P>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- lets plan -->
+    <div id="cuba-btn" class="startedbox"><button style="width: 215px;
+        height: 54px;
+        background-color: #ff1654;
+        border-radius: 5px;"><a class="started" href="">LETS PLAN YOUR TRIP</a></button></div>
+
+
+    <!-- destination -->
+
+    <br>
+
+
+
+    <!-- discount -->
+    <section class="banner mt-5">
+        <div class="banner-highlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>Get 30% on top destinations</h2>
+                        <p>Contact us before 31st march and avail 30% flat discount</p>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="booking-btn">Book Now </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <!-- success -->
+
+    <div class="success-box">
+        <div class="success-desc">
+            <h1 style="margin-bottom: 0.5rem;font-weight: 800; font-family: 'Roboto Condensed', sans-serif;font-size: 35px;">Our Success</h1>
+            <p style="font-family:'Roboto Condensed', sans-serif;font-size: 15px; color: black;"> “Travelling – it leaves you speechless, then turns you into a storyteller.” – Ibn Battuta
+            </p>
+        </div>
+    </div>
+    <div class=" container calculations">
+        <div class="dest-box">
+            <p class="number">196 </p>
+            <p class="num-desc">DESTINATIONS</p>
+        </div>
+
+        <div class="dest-box">
+            <p class="number">97</p>
+            <p class="num-desc">HOTELS</p>
+        </div>
+
+        <div class="dest-box">
+            <p class="number">12344</p>
+            <p class="num-desc">TRAVELLERS</p>
+        </div>
+
+        <div class="dest-box">
+            <p class="number">12202</p>
+            <p class="num-desc">HAPPY CUSTOMERS</p>
+        </div>
+    </div>
+    
+
+
+
+    <!-- main pic -budget  -->
+    <div class="row mt-5 " id="budget">
+        <div class="col-1"></div>
+        <div class="col-md-10 leftimage  ">
+            <h6 style="font-size: 18px; margin-top: 214px;color: white;">TIME TO SEE THE WORLD </h6>
+            <h1 style="font-weight: 700; color: white;  margin-bottom:210px;">TRAVEL TOURS</h1>
+
+            <button style="background-color: #ff1564;
+         color: white;
+         padding: 0px;
+         width: 148px;">
+                <p id="mongolia-btn">
+                    3Days,4Nights <br> From $1720</p>
+            </button>
+        </div>
+        <div class="col-1"></div>
+
+    </div>
+    <br>
+
+
+    <!-- animation -->
+    <div class="container hover">
+        <div class="box">
+            <div class="imgBx">
+                <img
+                    src="https://media.cntraveller.com/photos/611bece136358776d9492757/master/w_1920%2Cc_limit/mongolia-gettyimages-1222766172.jpg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Mongolia</h2>
+                    <p> 3Days,4Nights <br> From $1520</p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img
+                    src="https://p.w3layouts.com/demos_new/template_demo/18-08-2020/traversal-liberty-demo_Free/156905689/web/assets/images/g10.jpg">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Denmark</h2>
+                    <p>3Days,4Nights <br> From $1790
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img
+                    src="https://images.unsplash.com/photo-1603984362497-0a878f607b92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80">
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Norway</h2>
+                    <p>3Days,4Nights <br> From $1120
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img
+                    src="https://images.unsplash.com/photo-1579310962131-aa21f240d986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80">
+            </div>
+            <div class="content">
+                <div>
+                    <h2> Kenya</h2>
+                    <p>3Days,4Nights <br> From $2320
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+<br><br>
+    <!-- traveller-review -->
+    <div class="container " id="traveller-review">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-10 col-xl-8 text-center">
+                <h3 style="color: black; font-family: 'Ephesis', cursive;font-size: 35px;" class="mb-4">Client reviews</h3>
+                
+            </div>
+        </div>
+
+        <div class="row text-center d-flex align-items-stretch">
+            <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch ">
+                <div class="card testimonial-card">
+                    <div class="card-up" style="background-color: #9d789b;"></div>
+                    <div class="avatar mx-auto bg-white">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                            class="rounded-circle img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h4 class="mb-4">Maria Smantha</h4>
+                        <hr />
+                        <p class="dark-grey-text mt-4">
+                            <i class="fas fa-quote-left pe-2"></i>"Traversal has highly professional and experienced
+                            team. 1
+                            highly recommend them for business vacation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5 mb-md-0 d-flex align-items-stretch">
+                <div class="card testimonial-card">
+                    <div class="card-up" style="background-color: #7a81a8;"></div>
+                    <div class="avatar mx-auto bg-white">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                            class="rounded-circle img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h4 class="mb-4">Lisa Cudrow</h4>
+                        <hr />
+                        <p class="dark-grey-text mt-4">
+                            <i class="fas fa-quote-left pe-2"></i>I Want to thanks your team for planning and execuing
+                            our trip and look forward
+                            for continued association in coming years.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-0 d-flex align-items-stretch">
+                <div class="card testimonial-card">
+                    <div class="card-up" style="background-color: #6d5b98;"></div>
+                    <div class="avatar mx-auto bg-white">
+                        <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                            class="rounded-circle img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h4 class="mb-4">John Smith</h4>
+                        <hr />
+                        <p class="dark-grey-text mt-4">
+                            <i class="fas fa-quote-left pe-2"></i>I had no idea of places around Egypt that I wanted to
+                            explore so
+                            Traversal planned custom tour for me. Excellent service provider company.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+    <!-- get in contact and map -->
+
+    <div class="container" id="contact">
+        <div class="row mt-5">
+            <div style="margin-top: 150px;" class="col-lg-6">
+                <form>
+                    <p style="color: #ff1654; font-weight: 600;">GET IN TOUCH</p>
+                    <p><input style="width: 430px; height: 43px; border: 2px solid black; padding-left: 10px;"
+                            type="text" name="" id="" placeholder="Enter your Name"></p>
+                    <p><input style="width: 430px; height: 43px; border: 2px solid black; padding-left: 10px;"
+                            type="email" name="" id="" placeholder="Enter a valid email address"></p>
+                    <p><textarea style="width: 430px; height: 100px;  border: 2px solid; padding-left: 10px;" name=""
+                            id="" cols="30" rows="10" placeholder="Enter your message"></textarea></p>
+                    <p><button style="text-decoration: none;  border: 1px solid black;
+                    padding: 15px; width: 120px; border-radius: 6px;
+                    border-top: 2px solid;
+                    border-left: 2px solid; background-color: #ff1654; color: white;" type="button">SUBMIT</button></p>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <div style="margin-top: 40px;" class="card w-60 p-3">
+                    <div class="card-body">
+                        <h5 style="color: #ff1654;" class="card-title">Visit us</h5>
+                    </div>
+                    <div style="height: 500px;" class="ratio ratio-1x1">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356933.8714888409!2d10.413661869378636!3d45.65994086120074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781eca8aec020b9%3A0x91dcf07c1c969bb8!2sGarda!5e0!3m2!1spl!2spl!4v1672244147501!5m2!1spl!2spl"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+
+
+    <!-- footer -->
+    <div style="background-color: black;height: 400px; padding-top: 35px;">
+        <section id="contact">
+            <div style="text-align: center;" class="section-head">
+                <ul>
+                    <li class="li-class"><a class="a-class" href="">About us</a></li>
+                    <li class="li-class"><a class="a-class" href="">Travel</a></li>
+                    <li class="li-class"><a class="a-class" href="">Reviews</a></li>
+                    <!-- <li class="li-class"><a class="a-class" href="">Help</a></li> -->
+                    <li class="li-class"><a class="a-class" href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="icon-collection">
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin-in brand fa-1x"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-github brand fa-1x"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-twitter brand fa-1x "></i></a>
+                </div>
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-facebook-f brand fa-1x"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram brand fa-1x"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-solid fa-envelope brand fa-1x"></i></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p style="text-align: center;margin-top: 60px;"> <a
+                    style="font-weight: 600; color: white; text-decoration: none;font-size: 18px; "
+                    href="">Traversal-plan.com</a></p>
+            <div class="icon up-arrow">
+                <a href="#carouselExampleCaptions1"><i class="fa-solid fa-angle-up brand fa-1x"></i></a>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
